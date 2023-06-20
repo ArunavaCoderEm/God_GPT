@@ -70,7 +70,7 @@ def main_window_GPT():
             question = str(query.get())
             #
             prompt = (f'please give me the answer of {question}')
-            openai.api_key = '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'
+            openai.api_key = 'YOUR OWN API KEY THAT YOU WILL GET FROM OPENAI WEBSITE'
             response = openai.ChatCompletion.create(
                 model = 'gpt-3.5-turbo',
                 messages=[
